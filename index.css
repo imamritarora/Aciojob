@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid green;
+    border-radius: 25px;
+    
+}
+.navbar-links ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links a{
+    padding: 2rem;
+    color: black;
+    display: block;
+    list-style: none;
+}
+.navbar-links li:hover{
+    background-color: chocolate;
+}
+.navbar-links li a{
+    text-decoration: none;
+}
+
+ Section img{
+ width: 70%;
+ height: 70%;
+ border-radius: 25px;
+ padding: 20px;
+}
+.Search-Food h3{
+ padding: 20px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+  
+}
+form input{
+    width: 400%;
+    display: flex
+}
